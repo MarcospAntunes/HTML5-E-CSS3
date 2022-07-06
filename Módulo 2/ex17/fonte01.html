@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /* Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /* shorthand 
+            - font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima placeat consequuntur eligendi dolorem blanditiis nulla ad, eveniet dolores facere, doloribus voluptatibus! Deleniti non nobis pariatur laboriosam maiores possimus eius enim?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi hic quos iure adipisci impedit quaerat harum laboriosam exercitationem, fugiat alias natus minima eos recusandae error, quisquam deleniti quia id ducimus!</p>
+
+    <h2>Subtítulo moral</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ex nesciunt, quia natus culpa iure amet ipsam blanditiis debitis, nisi quos illo. Enim, odit libero autem voluptate qui ea veniam.</p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+h1 {
+    font-family: Arial;
+    font-size: 20pt;
+    color: rgb(75, 7, 7);
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 16pt;
+    color:rgb(72, 21, 119);
+}
+
+        mark {
+            background-color: rgb(16, 16, 77);
+        }
